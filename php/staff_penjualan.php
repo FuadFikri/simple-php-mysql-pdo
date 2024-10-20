@@ -35,7 +35,19 @@ $penjualan = $stmt2->fetchAll(PDO::FETCH_ASSOC);
     </style>
 </head>
 <body>
+   
+    <div class="row justify-content-start">
+        <div class="col-8"></div>
+        <div class="col-4">
+        <form method="POST" action="logout.php">
+            <button class="btn-danger" type="submit" >log out</button>
+        </form>
+        </div>
+        
+    </div>
+    <br>
     <div class="container">
+   
         <h1>Selamat datang, Staff Penjualan!</h1>
         
       
